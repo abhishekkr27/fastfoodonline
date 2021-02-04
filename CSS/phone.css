@@ -1,0 +1,99 @@
+/* Navigation : Logo Img */
+#logo{
+    margin: 0px;
+}
+
+#logo img{
+    display: block;
+    margin: auto;margin-top: 5px;
+    width: 70px;height: 50px;
+}
+
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#navbar ul li a{
+    font-size: 1.0rem;
+    padding: 0px 6px; padding-bottom: 8px;
+    padding-top: 0px;
+}
+
+/* Home section */
+
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/* Services section  */
+
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+#services .box img{
+    width: 150px;
+    height: auto;
+}
+
+/* Clients section */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 50px;
+}
+
+/* Contact us section */
+
+#contact::before{
+    height: 112%;
+}
+
+#contact-box form{
+    width:70%;
+    margin-right: 20px;
+}
+
+/* Utility classes */
+
+.h-primary{
+    font-size:20px;
+    text-align: center
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.btn2{
+    font-size: 13px;
+    padding: 4px 8px;
+    margin: auto;
+    margin-top: 3px;
+}
