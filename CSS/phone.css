@@ -72,10 +72,6 @@
 
 /* Contact us section */
 
-#contact::before{
-    height: 112%;
-}
-
 #contact-box form{
     width:70%;
     margin-right: 20px;
