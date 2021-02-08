@@ -79,6 +79,10 @@
 
 /* Utility classes */
 
+footer{
+    bottom: 0;
+}
+    
 .h-primary{
     font-size:20px;
     text-align: center
