@@ -62,6 +62,10 @@
 
 /* Clients section */
 
+#client-section::before{
+    height: 53%;
+}
+
 #clients{
     flex-wrap: wrap;
 }
