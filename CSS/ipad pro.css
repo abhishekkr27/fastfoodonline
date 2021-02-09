@@ -1,0 +1,30 @@
+/* Responsive For ipad pro */
+
+/* Home Section */
+
+#home p{
+    text-align: center;
+}
+
+/* Services Section */
+
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+    
+#services .box img{
+    width: 150px;
+    height: auto;
+}
+
+/* Clients section */
+
+#client-section::before{
+    height: 55%;
+}
