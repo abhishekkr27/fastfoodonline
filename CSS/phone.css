@@ -43,6 +43,15 @@
     text-align: center;
 }
 
+.mySlider {
+    margin-top: 22px;
+    height: 350px;
+}
+
+.slideshow-container {
+    height: 415px;  
+}
+
 /* Services section  */
 
 #services{
@@ -66,6 +75,7 @@
     height: 53%;
 }
 
+
 #clients{
     flex-wrap: wrap;
 }
@@ -83,10 +93,6 @@
 
 /* Utility classes */
 
-footer{
-    bottom: 0;
-}
-    
 .h-primary{
     font-size:20px;
     text-align: center
